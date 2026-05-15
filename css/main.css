@@ -1384,7 +1384,7 @@ pre code {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #710021;
+  background: #ff8781;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2565,19 +2565,6 @@ ul.breadcrumb li:last-child {
     color: #eee;
   }
 }
-.gt-header a,
-.gt-comments a,
-.gt-popup a {
-  border-bottom: 0;
-}
-.gt-container .gt-popup .gt-action.is--active::before {
-  top: 0.7em;
-}
-@media (prefers-color-scheme: dark) {
-  .gt-container .gt-header-textarea {
-    background-color: var(--card-bg-color) !important;
-  }
-}
 mark.search-keyword {
   background: transparent;
   border-bottom: 1px dashed #ff2a2a;
@@ -2730,4 +2717,8 @@ header.header {
   .sidebar-active .footer-fixed {
     left: 320px;
   }
+}
+.giscus {
+  max-width: unset;
+  box-sizing: border-box;
 }
